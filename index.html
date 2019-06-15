@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <!-- MAIN (Center website) -->
+<div class="main">
+
+    <h1>IAMSYAHIRAH</h1>
+    <hr>
+    
+    <h2>PORTFOLIO</h2>
+    
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+      <button class="btn" onclick="filterSelection('nature')"> Nature</button>
+      <button class="btn" onclick="filterSelection('bicycles')"> Bicycles</button>
+      <button class="btn" onclick="filterSelection('people')"> People</button>
+    </div>
+    
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
+      <div class="column nature">
+        <div class="content">
+          <img src="img/img1.jpg" alt="Snow" style="width:100%">
+          <h4>Snow</h4>
+          <p>White and cold</p>
+        </div>
+      </div>
+      <div class="column nature">
+        <div class="content">
+        <img src="img/img2.jpg" alt="Forest" style="width:100%">
+          <h4>Forest</h4>
+          <p>Green and Night</p>
+        </div>
+      </div>
+      <div class="column nature">
+        <div class="content">
+        <img src="img/img3.jpg" alt="Colorful" style="width:100%">
+          <h4>Colorful</h4>
+          <p>Blue and pink</p>
+        </div>
+      </div>
+      
+      <div class="column bicycles">
+        <div class="content">
+          <img src="img/b1.jpg" alt="Classic" style="width:100%">
+          <h4>Classic</h4>
+          <p>This bicycle for classic vibe</p>
+        </div>
+      </div>
+      <div class="column bicycles">
+        <div class="content">
+        <img src="img/b2.jpg" alt="kids" style="width:100%">
+          <h4>Kids</h4>
+          <p>This bicycle for kids.</p>
+        </div>
+      </div>
+      <div class="column bicycles">
+        <div class="content">
+        <img src="img/b3.jpg" alt="Sport" style="width:100%">
+          <h4>Sport</h4>
+          <p>This bicycle for sport activities.</p>
+        </div>
+      </div>
+    
+      <div class="column people">
+        <div class="content">
+          <img src="img/people1.jpg" alt="girl" style="width:100%">
+          <h4>Girl</h4>
+          <p>This girl is beautiful</p>
+        </div>
+      </div>
+      <div class="column people">
+        <div class="content">
+        <img src="img/people2.jpg" alt="man" style="width:100%">
+          <h4>Man</h4>
+          <p>This man is handsome</p>
+        </div>
+      </div>
+      <div class="column people">
+        <div class="content">
+        <img src="img/people3.jpg" alt="woman" style="width:100%">
+          <h4>Woman</h4>
+          <p>This is old woman.</p>
+        </div>
+      </div>
+    <!-- END GRID -->
+        </div>
+        <!-- End Main-->
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
